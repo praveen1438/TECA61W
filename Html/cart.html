@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../Css/cart.css">
+<link rel="stylesheet" href="../Css/navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="mainlist1">
+            <li class="li1"> <a href="./home.html">Home</a></li>
+            <li class="li1"> <a href="./about.html">About</a></li>
+            <li class="li1"> <a href="./cart.html">Cart</a>
+              <ul class="sublist">
+                <li class="li2">1</li>
+              </ul>
+            </li>
+        </ul>
+
+        <ul class="mainlist2">
+          <li class="li3"><a href="../index.html">Logout</a></li>
+        </ul>
+      </nav>
+<div class="cartContainer">
+    <div class="cartImageContainer">
+         <img class="cartImage" src="../Assets/P1.png" alt="">
+    </div>
+    <div class="cartInfoContainer">
+          <div class="productName">
+             <span class="pName">Silver Ring</span>
+             <div class="pNamesec2">
+             <div class="incDec">
+                <input class="inps" type="button" value="-">
+                <input class="inps" value="1" readonly>
+                <input class="inps" type="button" value="+">
+             </div>
+             <i class="fa-solid fa-trash fa-beat"></i>
+             </div>
+          </div>
+          <div class="productDetails">
+              <h1 class="pdel">Size:<span>8</span></h1>
+              <h1 class="pdel">A.price:<span>450Rs</span></h1>
+              <h1 class="pdel">D.price:<span>320Rs</span></h1>
+          </div>
+    </div>
+</div>
+<div class="cartContainer">
+    <div class="cartImageContainer">
+         <img class="cartImage" src="../Assets/PS4.png" alt="">
+    </div>
+    <div class="cartInfoContainer">
+          <div class="productName">
+             <span class="pName">Sun Glasses</span>
+             <div class="pNamesec2">
+             <div class="incDec">
+                <input class="inps" type="button" value="-">
+                <input class="inps" value="1" readonly>
+                <input class="inps" type="button" value="+">
+             </div>
+             <i class="fa-solid fa-trash fa-beat"></i>
+             </div>
+          </div>
+          <div class="productDetails">
+              <h1 class="pdel">Size:<span>8</span></h1>
+              <h1 class="pdel">A.price:<span>500Rs</span></h1>
+              <h1 class="pdel">D.price:<span>300Rs</span></h1>
+          </div>
+    </div>
+</div>
+<div class="cartContainer">
+    <div class="cartImageContainer">
+         <img class="cartImage" src="../Assets/watches.png" alt="">
+    </div>
+    <div class="cartInfoContainer">
+          <div class="productName">
+             <span class="pName">Smart watche</span>
+             <div class="pNamesec2">
+             <div class="incDec">
+                <input class="inps" type="button" value="-">
+                <input class="inps" value="1" readonly>
+                <input class="inps" type="button" value="+">
+             </div>
+             <i class="fa-solid fa-trash fa-beat"></i>
+             </div>
+          </div>
+          <div class="productDetails">
+              <h1 class="pdel">Size:<span>8</span></h1>
+              <h1 class="pdel">A.price:<span>4500Rs</span></h1>
+              <h1 class="pdel">D.price:<span>3800Rs</span></h1>
+          </div>
+    </div>
+</div>
+<div class="coupanCode">
+     coupon Code:
+     <input id="coupanCodeinp" placeholder="coupon Code" type="text" minlength="6" maxlength="6">
+</div>
+   <div id="checkoutContainer">
+      <div id="checkoutInfo">
+          <h1 class="checkoutText">No of products<span class="impNumber">2</span></h1>
+          <h1 class="checkoutText">Total Cost :<span>4020</span>Rs</h1>
+      </div>
+      <input type="button" value="Pay" class="payButton">
+   </div>
+      <footer>
+        <ul class="footerList">
+           <li class="fli">
+              <a href="#" class="fli">
+                  <i class="fa-brands fa-square-facebook"></i>
+                  FaceBook
+              </a>
+           </li>
+           <li class="fli">
+            <a href="#" class="fli">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>
+         </li>
+         <li class="fli">
+            <a href="#" class="fli">
+                <i class="fa-brands fa-twitter"></i>
+                Twitter
+            </a>
+         </li>
+        </ul>
+        <span class="copy">
+            <i class="fa-solid fa-copyright"></i>
+            Copyright belongs to the students of jspiders so be ready to get sued
+        </span>
+      </footer>
+      <a href="#">
+        <div id="top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </a>
+   
+</body>
+</html>
